@@ -37,3 +37,9 @@ docker context create aci sagaracicontext
 
 docker --context sagaracicontext run -p 80:80 sagarmhatre/springboot-crud-h2:1.1-amd64
 ```
+
+Jmeter 
+https://jmeter-plugins.org/wiki/PluginsManager/
+Download the Plugins Manager JAR file and put it into JMeter's lib/ext directory. Then start JMeter and go to "Options" menu to access the Plugins Manager.
+
+https://jmeter-plugins.org/?search=jpgc-graphs-basic
