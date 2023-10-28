@@ -1,0 +1,31 @@
+[
+  {
+    "id": "/subscriptions/83307c02-8dab-47fa-bf09-f49e7989eec1/resourceGroups/axp-reporting/providers/Microsoft.Resources/deployments/Microsoft.ContainerInstances-20231028003805/operations/9DCEF7376F1172C8",
+    "operationId": "9DCEF7376F1172C8",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-10-27T16:40:36.4240137Z",
+      "duration": "PT46.3804546S",
+      "trackingId": "f62bbc8d-175b-42d5-881c-78494d71faf4",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/83307c02-8dab-47fa-bf09-f49e7989eec1/resourceGroups/axp-reporting/providers/Microsoft.ContainerInstance/containerGroups/springboot-crud-h2",
+        "resourceType": "Microsoft.ContainerInstance/containerGroups",
+        "resourceName": "springboot-crud-h2"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/83307c02-8dab-47fa-bf09-f49e7989eec1/resourceGroups/axp-reporting/providers/Microsoft.Resources/deployments/Microsoft.ContainerInstances-20231028003805/operations/08585031820998451923",
+    "operationId": "08585031820998451923",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-10-27T16:40:36.5987336Z",
+      "duration": "PT46.5551745S",
+      "trackingId": "b4294a9c-86c2-470d-b26d-5c2b27076b00",
+      "statusCode": "OK"
+    }
+  }
+]

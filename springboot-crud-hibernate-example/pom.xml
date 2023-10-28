@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>net.javaguides.springboot</groupId>
-	<artifactId>springboot-crud-hibernate-example</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-crud-hibernate-example</name>
+	<artifactId>springboot-crud-h2</artifactId>
+	<version>1.0</version>
+	<name>springboot-crud-h2</name>
 	<description>spring boot crud operations example with hibernate</description>
 
 	<properties>

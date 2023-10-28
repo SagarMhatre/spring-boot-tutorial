@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "3e017666-995e-4fe0-9e04-d8570dedd0f1",
+		"name": "springboot-crud-h2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27370981"
+	},
+	"item": [
+		{
+			"name": "get products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{host}}/products",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"shoes\", \"description\":\"shoe\",\"price\":220}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://{{host}}/products",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
